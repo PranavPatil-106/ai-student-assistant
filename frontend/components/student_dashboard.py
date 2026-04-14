@@ -1,7 +1,9 @@
 import streamlit as st
 import requests
 
-API_URL = "http://localhost:8000"
+import os
+
+API_URL = os.getenv("API_URL", "http://localhost:8000")
 
 def student_dashboard():
     col1, col2 = st.columns([3, 1])
