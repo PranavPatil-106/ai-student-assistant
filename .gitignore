@@ -141,5 +141,7 @@ backend/embeddings/
 *.pdf
 *.docx
 *.txt
+!requirements.txt
+!backend/requirements.txt
 .env
 storage/
